@@ -1,3 +1,15 @@
+Description
+This project aims to provide information about a medical clinic, its services, specialists, customer reviews, and contact information. It includes various sections such as a main section, services section, doctor specialists section, customer reviews section, newsletter subscription section, and footer.
+
+Features
+Main section introducing the clinic and its services.
+Services section displaying the medical services offered.
+Doctor specialists section showcasing the clinic's specialists.
+Customer reviews section showing testimonials from satisfied customers.
+Newsletter subscription section for users to subscribe for updates.
+Footer section with social media links and copyright information.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

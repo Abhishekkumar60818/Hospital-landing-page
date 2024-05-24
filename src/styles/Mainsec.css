@@ -1,0 +1,54 @@
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #f0f4ff;
+  }
+  .content1 {
+    max-width: 600px;
+  }
+  h2 {
+    color: #007bff;
+    font-size: 20px;
+  }
+  
+  h1 {
+    color: #004080;
+    font-size: 48px;
+    margin: 10px 0;
+  }
+  p {
+    color: #333;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .appointment-button, .departments-button {
+    
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .appointment-button:hover, .departments-button:hover {
+    background-color: #0056b3;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  .image-placeholder {
+    width: 300px;
+    height: 400px;
+    background-color: #e6e9ff;
+    border-radius: 20px;
+  }

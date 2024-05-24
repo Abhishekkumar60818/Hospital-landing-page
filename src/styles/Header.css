@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure space between logo and nav/contact */
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .logo-blue {
+    color: #007bff;
+  }
+  
+  .logo-orange {
+    color: #ff7f50;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+    flex-direction: right;
+    margin-left: 50%; /* Push nav and contact button to the right */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+    padding: 5px 10px; /* Add padding for better hover effect */
+  }
+  
+  .nav-link:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.1); /* Slightly increase size on hover */
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .contact-button {
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px; /* Space between nav links and contact button */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .contact-button:hover {
+    background-color: #007bff;
+    transform: scale(1.1); /* Slightly increase size on hover */
+    color: white;  
+}
+  
