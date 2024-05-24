@@ -29,8 +29,14 @@
   width: 200px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  transition: transform 0.3s, background-color 0.3s; /* Add background-color transition */
   position: relative;
+}
+
+.service-card:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  background-color: #004080; /* Change background color on hover */
+color: white;
 }
 
 .service-card .learn-more {
